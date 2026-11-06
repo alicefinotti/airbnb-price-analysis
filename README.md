@@ -1,5 +1,28 @@
-# airbnb-price-analysis
-This repository contains a university statistics project focused on the analysis of an Airbnb-style rental dataset across several U.S. cities.
-The project explores how rental prices vary depending on factors such as city, room type, property size, amenities, reviews, and host-related characteristics.
-The analysis was carried out in R and includes descriptive statistics, correlation analysis, and visualizations such as boxplots, histograms, bar plots, and scatter plots.
-The main purpose of the project is to identify meaningful patterns in the data and present them clearly through both code and a written report. Particular attention is given to the relationship between price and variables such as number of accommodates, room type, location, and amenities.
+# Airbnb Price Analysis
+## Overview
+
+Exploratory statistical analysis of **74,111 Airbnb listings across six U.S. cities**, investigating how rental prices and customer reviews vary with property characteristics, location, amenities, and host attributes.
+
+## Methodology
+
+The analysis was conducted in **R** on a dataset containing 26 variables, applying:
+
+- **Descriptive statistics** to examine distributions and compare rental characteristics across cities and property types.
+- **Correlation analysis** to investigate relationships between prices, accommodation capacity, and property characteristics.
+- **Conditional probability analysis** to examine the prevalence of amenities across different price categories.
+- **Data visualization** using histograms, boxplots, scatter plots, and bar charts to identify and communicate patterns.
+
+## Key Findings
+
+- **Location:** San Francisco exhibited the highest average rental prices, while Chicago had the lowest.
+- **Property size:** Accommodation capacity showed a positive correlation with rental price (r = 0.568), while the price per guest tended to decrease for larger properties.
+- **Amenities:** Listings with more amenities were generally associated with higher prices and a greater number of reviews.
+- **Host characteristics:** Verified hosts tended to receive more reviews and slightly higher ratings.
+
+The analysis is exploratory: the relationships identified are statistical associations rather than evidence of causality, particularly given the potential confounding effects between property characteristics.
+
+## Repository Contents
+
+- `analysis.R` — R code for statistical analysis and visualizations
+- `final report.pdf` — Detailed methodology, results, and conclusions
+- `Appendix-graphs.pdf` — Supporting plots and visualizations
